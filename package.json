@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/transsightdev/logging-module.git"
+    "url": "https://github.com/meba-transsight/wzdx-logging-module.git"
   },
   "keywords": [],
   "author": "david.balmer@transsight.com",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/transsightdev/logging-module#readme",
+  "homepage": "https://github.com/meba-transsight/wzdx-logging-module#readme",
   "dependencies": {
     "@aws-sdk/client-ses": "^3.40.0",
     "@sentry/node": "^7.38.0",
