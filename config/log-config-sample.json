@@ -1,0 +1,18 @@
+{
+  "staging": {
+    "username": "...",
+    "password": "...",
+    "database": "...",
+    "host": "...",
+    "port": 5432,
+    "schema": "public",
+    "tableName": "shared_logs",
+    "logging": false,
+    "timezone": "America/Los_Angeles",
+    "pool": {
+      "max": 200,
+      "idle": 30000,
+      "timeout": 5000
+    }
+  }
+}

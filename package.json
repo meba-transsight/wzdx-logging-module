@@ -1,0 +1,38 @@
+{
+  "name": "logging-module",
+  "version": "1.7.0",
+  "description": "Shared logging module",
+  "main": "logging-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/transsightdev/logging-module.git"
+  },
+  "keywords": [],
+  "author": "david.balmer@transsight.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/transsightdev/logging-module#readme",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.40.0",
+    "@sentry/node": "^7.38.0",
+    "@sentry/tracing": "^7.38.0",
+    "app-root-path": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express-mung": "^0.5.1",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "node-cron": "^3.0.0",
+    "pg": "^8.3.2",
+    "sequelize": "^6.3.4",
+    "sequelize-date-no-tz-postgres": "^1.0.0"
+  },
+  "devDependencies": {
+    "clear": "^0.1.0",
+    "eslint": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-notify": "^4.0.0"
+  }
+}
