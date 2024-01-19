@@ -1,5 +1,5 @@
 {
-  "name": "logging-module",
+  "name": "wzdx-logging-module",
   "version": "1.7.0",
   "description": "Shared logging module",
   "main": "logging-module.js",
